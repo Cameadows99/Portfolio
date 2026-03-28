@@ -8,8 +8,7 @@ export default function HomePage() {
         <p className="eyebrow">Developer Portfolio</p>
 
         <h1>
-          Building useful, creative applications with style and innovation as
-          the drive.
+          Building useful, creative applications with style and innovation
         </h1>
 
         <p className="hero-text">
