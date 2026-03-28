@@ -6,22 +6,32 @@ export default function HomePage() {
     <div className="home-page">
       <section className="hero">
         <p className="eyebrow">Developer Portfolio</p>
+
         <h1>
           Building useful, creative applications with style and innovation as
           the drive.
         </h1>
+
         <p className="hero-text">
-          I’m Chase Meadows, a front-end focused developer creating applications
-          that blend function, atmosphere, and real-world usefulness.
+          Chase Meadows, a self-taught front-end focused developer with back-end
+          experience, creating applications that blend functionality, usability,
+          and overlooked desires.
         </p>
 
         <div className="hero-buttons">
           <Link href="/projects" className="primary-btn">
             View Projects
           </Link>
-          <Link href="https://github.com/Cameadows99" className="secondary-btn">
+
+          <a
+            href="https://github.com/Cameadows99"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="secondary-btn"
+          >
             Github
-          </Link>
+          </a>
+
           <a href="#about" className="secondary-btn">
             About Me
           </a>
@@ -30,72 +40,119 @@ export default function HomePage() {
 
       <section id="about" className="content-panel">
         <SectionHeading title="About Me" />
+
         <p>
-          My proclaimed skills/passions are writing, pattern
-          recognition/decoding, finding intricies in seemingly simple things. I
-          enjoy finding something rather complicated and breaking it down to
-          simplicity either through disecting small pieces and then
-          construnction each piece into a whole or through relatability with
-          another structure/idea. I find joy in diving deep into systems and
-          finding how each piece relates or affects one another. What pulled me
-          toward programming is the ability to manufacture an idea into reality
-          while also considering all types of people's experience beyond my own.
-          When I began programming I started with the idea of diving deep into
-          the back-end but through experience I found satisfaction in design and
-          the small details of user experiences. This is because I believe on of
-          my strengths is considering multiple perceptions at once and finding a
-          solution that satisfies the majority rather than the individual.
+          I’m drawn to pattern recognition and breaking things down into their
+          simplest forms.
+        </p>
+
+        <p>
+          If something feels complicated, my instinct is to dissect it,
+          understand each piece, then rebuild it into something clearer and more
+          intentional.
+        </p>
+
+        <p>
+          I enjoy diving into systems and seeing how everything connects, how
+          one decision affects another, and how small details shape the overall
+          experience.
+        </p>
+
+        <p className="highlight-line">
+          That’s what pulled me into programming.
+        </p>
+
+        <p>
+          At first I was focused on the back-end, but over time I found myself
+          drawn to design, the small interactions, the feeling of using
+          something, and how those details come together to create a meaningful
+          experience.
+        </p>
+
+        <p>
+          I think one of my strengths is being able to hold multiple
+          perspectives at once and shape something that works not just for one
+          person, but for many.
         </p>
       </section>
 
       <section className="content-panel">
         <SectionHeading title="Experience" />
+
+        <p>My background is hands-on and rooted in construction.</p>
+
         <p>
-          My work history is mostly one of hands-on contruction. I have spent
-          many years as a commercial carpenter. Although it may seem unrelated
-          (and in many ways it is), I have found similarities in focusing on
-          individual pieces and using them to create a whole. One must think of
-          the end design when working on the bones of a building to fulfill the
-          necessary functionality and stylistic expressinon. I began teaching
-          myself to program in small steps. I first began with freecodecamp.com
-          and taking what I learned to create something of my own to challenge
-          myself and retain the information learned. Later I began to dive into
-          more diverse directions to explore all avenues and followed more
-          fleshed out video tutorials to gain experience of larger projects. Not
-          all of my applications are listed here due to the fact that I felt it
-          unnecessary to include projects I followed more than learned. Finally,
-          I used my learned skills to create an application for my previous
-          company (Heatwave) that modernized the way the employees interacted
-          with the employer. This was mostly due to the fact that the company
-          still largely used paper filing.
+          I spent years working as a commercial carpenter, building things piece
+          by piece with a focus on both structure and finish.
+        </p>
+
+        <p>
+          Even though it seems unrelated, that experience shaped how I think
+          about development.
+        </p>
+
+        <p className="highlight-line">
+          You don’t just build something—you think about how it will be used,
+          how it holds together, and how every part contributes to the whole.
+        </p>
+
+        <p>
+          I started learning to code in small steps, using platforms like
+          freeCodeCamp, and gradually moved into building my own projects.
+        </p>
+
+        <p>
+          Over time, I explored more complex applications and began applying
+          what I learned in real scenarios, including creating tools for my
+          previous company to modernize how work was handled.
+        </p>
+
+        <p>
+          That project replaced outdated processes and gave me a real sense of
+          what it means to build something that actually improves how people
+          work.
         </p>
       </section>
 
       <section className="content-panel">
         <SectionHeading title="What I Like Building" />
+
         <p>
-          I prefer to take things that are so commonly used that most people
-          forget that improvements could be made or alternate ways of achieving
-          these functionalities are overlooked. For instance, my ideas for
-          future projects include redesigning web navigation using video game
-          controls to allow users to have complete navigation control with one
-          hand on the left side of the keyboard, freeing up the other hand to
-          take notes, eat, or whatever is desired by the user with the usual
-          mouse hand. I would also like to make a button that I coined as the
-          "betty button". This is a button that gives the user full and easy
-          access to define themselves. The use case came from an idea of a
-          user-created calculator application that allows users to design
-          calculators fit for their needs and save and share them. A
-          self-employed contractor could creat one for roofing quoting, someone
-          can use it for personalized budgets, or for taking stock. The name
-          "betty button" comes from the idea that someone budgeting for
-          themselves could create a button for the $200 they pay monthly to
-          their grandma. They could design it to be called "Betty" and set the
-          operation to subtract 200 rather than typing '-200' each time they
-          budget. These are just a few ideas but the consistent pattern is that
-          I enjoy to think about what is missing and fill in gaps that might
-          often get overlooked or provide people with things they didn't know
-          that they wanted.
+          I’m interested in improving things people use every day, especially
+          the ones that are so familiar that no one questions them anymore.
+        </p>
+
+        <p>
+          A lot of my ideas come from noticing small friction points and
+          imagining better ways to interact with them.
+        </p>
+
+        <p>
+          For example, I’ve thought about navigation systems that allow full
+          control with one hand using keyboard inputs, freeing the other hand
+          for real-world tasks.
+        </p>
+
+        <p>
+          I also like building tools that give users more control over their own
+          systems.
+        </p>
+
+        <p>
+          One idea I’m working on is a customizable calculator where users can
+          create their own buttons for repeated actions, something as simple as
+          a “Betty” button that automatically subtracts a fixed expense each
+          month.
+        </p>
+
+        <p className="highlight-line">
+          It’s not about complexity—it’s about removing friction and giving
+          people intuitive ways to interact with their own tools.
+        </p>
+
+        <p>
+          The common thread in everything I build is this: I want to find what’s
+          missing, and fill that gap in a way that feels natural.
         </p>
       </section>
     </div>
