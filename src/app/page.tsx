@@ -43,57 +43,59 @@ export default function HomePage() {
 
         <p>
           I’m drawn to pattern recognition and breaking things down into their
-          simplest forms.
+          simple pieces that join to create a larger whole.
         </p>
 
         <p>
-          If something feels complicated, my instinct is to dissect it,
-          understand each piece, then rebuild it into something clearer and more
-          intentional.
+          I enjoy finding something rather complicated and breaking it down to
+          simplicity either through dissecting small pieces and then
+          constructing each piece into a whole or through relatability with
+          another structure/idea.
+        </p>
+
+        <p className="highlight-line">
+          I find joy in diving deep into systems and finding how each piece
+          relates or affects one another.
         </p>
 
         <p>
           I enjoy diving into systems and seeing how everything connects, how
           one decision affects another, and how small details shape the overall
-          experience.
-        </p>
-
-        <p className="highlight-line">
-          That’s what pulled me into programming.
+          system.
         </p>
 
         <p>
-          At first I was focused on the back-end, but over time I found myself
-          drawn to design, the small interactions, the feeling of using
-          something, and how those details come together to create a meaningful
-          experience.
+          What pulled me toward programming is the ability to manufacture an
+          idea into reality while also considering all types of people's
+          experience beyond my own.
+        </p>
+
+        <p>
+          At first I started with the idea of diving deep into the back-end, but
+          through experience I found satisfaction in design and the small
+          details of user experiences.
         </p>
 
         <p>
           I think one of my strengths is being able to hold multiple
-          perspectives at once and shape something that works not just for one
-          person, but for many.
+          perspectives at once and shape something that works for the collective
+          rather than the individual.
         </p>
       </section>
 
       <section className="content-panel">
         <SectionHeading title="Experience" />
 
-        <p>My background is hands-on and rooted in construction.</p>
+        <p>My work history is mostly one of hands-on construction.</p>
+
+        <p>I have spent many years as a commercial carpenter.</p>
 
         <p>
-          I spent years working as a commercial carpenter, building things piece
-          by piece with a focus on both structure and finish.
-        </p>
-
-        <p>
-          Even though it seems unrelated, that experience shaped how I think
-          about development.
-        </p>
-
-        <p className="highlight-line">
-          You don’t just build something—you think about how it will be used,
-          how it holds together, and how every part contributes to the whole.
+          Although it may seem unrelated (and in many ways it is), I have found
+          similarities in focusing on individual pieces and using them to create
+          a whole. One must think of the end design when working on the bones of
+          a building to fulfill the necessary functionality and stylistic
+          expression.
         </p>
 
         <p>
@@ -102,15 +104,16 @@ export default function HomePage() {
         </p>
 
         <p>
-          Over time, I explored more complex applications and began applying
-          what I learned in real scenarios, including creating tools for my
-          previous company to modernize how work was handled.
+          Later I began to dive into more diverse directions to explore all
+          avenues and followed more fleshed-out video tutorials to gain
+          experience of larger projects.
         </p>
 
         <p>
-          That project replaced outdated processes and gave me a real sense of
-          what it means to build something that actually improves how people
-          work.
+          Finally, I used my learned skills to create an application for my
+          previous company (Heatwave) that modernized the way the employees
+          interacted with the employer. This was mostly due to the fact that the
+          company still largely used paper filing.
         </p>
       </section>
 
@@ -119,7 +122,8 @@ export default function HomePage() {
 
         <p>
           I’m interested in improving things people use every day, especially
-          the ones that are so familiar that no one questions them anymore.
+          the ones that are so commonly used that most people do not even think
+          about innovating further.
         </p>
 
         <p>
@@ -129,30 +133,40 @@ export default function HomePage() {
 
         <p>
           For example, I’ve thought about navigation systems that allow full
-          control with one hand using keyboard inputs, freeing the other hand
-          for real-world tasks.
+          control with one hand using keyboard gaming controls that allow the
+          user to navigate a webpage using one hand and free up the mouse hand
+          for taking notes or however they decide to use it.
         </p>
 
         <p>
-          I also like building tools that give users more control over their own
-          systems.
+          I also like to build easy-to-understand systems that allow users to
+          have some sort of distinct way to interact with the interface without
+          sacrificing simple standard interface interactivity.
         </p>
 
         <p>
-          One idea I’m working on is a customizable calculator where users can
-          create their own buttons for repeated actions, something as simple as
-          a “Betty” button that automatically subtracts a fixed expense each
-          month.
+          I would also like to make a button that I coined as the "Betty
+          button". This is a button that gives the user full and easy access to
+          define themselves. The use case came from an idea of a user-created
+          calculator application that allows users to design calculators fit for
+          their needs and save and share them. A self-employed contractor could
+          create one for roofing quoting, someone can use it for personalized
+          budgets, or for taking stock. The name "Betty button" comes from the
+          idea that someone budgeting for themselves could create a button for
+          the $200 they pay monthly to their grandma. They could design it to be
+          called "Betty" and set the operation to subtract 200 rather than
+          typing "-200" each time they budget.
         </p>
 
         <p className="highlight-line">
-          It’s not about complexity—it’s about removing friction and giving
-          people intuitive ways to interact with their own tools.
+          The goal is to remove discomfort and confusion for as many users as
+          possible while also giving the users a structured way to interact with
+          the application.
         </p>
 
         <p>
-          The common thread in everything I build is this: I want to find what’s
-          missing, and fill that gap in a way that feels natural.
+          To tie all of this together: my goal is to find easily overlooked gaps
+          and fill them in a subtly profound way.
         </p>
       </section>
     </div>
