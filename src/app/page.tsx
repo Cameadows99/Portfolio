@@ -163,7 +163,7 @@ export default function HomePage() {
 
         <p>
           To tie all of this together: my goal is to find easily overlooked gaps
-          and fill them in a subtly profound way.
+          and fill them in a subtly impactful way.
         </p>
       </section>
     </div>
