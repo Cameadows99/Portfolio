@@ -125,61 +125,57 @@ export default async function ProjectDetailPage({ params }: Props) {
         )}
       </section>
 
-      <section className="content-panel">
+      {project.screenshots?.length > 0 && (
+        <section className="content-panel">
         <h2>Screenshots</h2>
-        {project.screenshots?.length ? (
           <ScreenshotSlider
             screenshots={project.screenshots}
             title={project.title}
           />
-        ) : (
-          <p>[Placeholder] Add screenshots of the project here.</p>
+          </section>
         )}
-      </section>
+      
 
-      <section className="content-panel">
-        <h2>How to Test It</h2>
+      {project.testingNotes?.length > 0 && (
+  <section className="content-panel">
+    <h2>How to Test It</h2>
 
-        {project.testingNotes?.length ? (
-          <div className="space-y-4">
-            {project.testingNotes.map((note, index) => (
-              <div key={index} className="flex items-start gap-3">
-                <span className="font-semibold">{index + 1}.</span>
-                <div>
-                  <p className="font-medium">{note.title}</p>
-                  {note.details.map((detail, i) => {
-                    const lower = detail.toLowerCase();
-                    const isEmail = lower.startsWith("email:");
-                    const isPassword = lower.startsWith("password:");
+    <div className="space-y-4">
+      {project.testingNotes.map((note, index) => (
+        <div key={index} className="flex items-start gap-3">
+          <span className="font-semibold">{index + 1}.</span>
+          <div>
+            <p className="font-medium">{note.title}</p>
 
-                    if (isEmail || isPassword) {
-                      const value = detail.split(":").slice(1).join(":").trim();
+            {note.details.map((detail, i) => {
+              const lower = detail.toLowerCase();
+              const isEmail = lower.startsWith("email:");
+              const isPassword = lower.startsWith("password:");
 
-                      return (
-                        <CopyField
-                          key={i}
-                          label={isEmail ? "Email" : "Password"}
-                          value={value}
-                        />
-                      );
-                    }
+              if (isEmail || isPassword) {
+                const value = detail.split(":").slice(1).join(":").trim();
 
-                    return (
-                      <p key={i} className="text-sm text-gray-300">
-                        {detail}
-                      </p>
-                    );
-                  })}
-                </div>
-              </div>
-            ))}
+                return (
+                  <CopyField
+                    key={i}
+                    label={isEmail ? "Email" : "Password"}
+                    value={value}
+                  />
+                );
+              }
+
+              return (
+                <p key={i} className="text-sm text-gray-300">
+                  {detail}
+                </p>
+              );
+            })}
           </div>
-        ) : (
-          <p>
-            [Placeholder] Explain how someone can try the app for themselves.
-          </p>
-        )}
-      </section>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
     </article>
   );
 }
