@@ -85,9 +85,7 @@ export default function HomePage() {
       <section className="content-panel">
         <SectionHeading title="Experience" />
 
-        <p>My work history is mostly one of hands-on construction.</p>
-
-        <p>I have spent many years as a commercial carpenter.</p>
+        <p>My work history is mostly one of many years of hands-on construction.</p>
 
         <p>
           Although it may seem unrelated (and in many ways it is), I have found
