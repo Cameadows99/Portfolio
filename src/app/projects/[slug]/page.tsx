@@ -124,24 +124,12 @@ export default async function ProjectDetailPage({ params }: Props) {
           <p>[Placeholder] Add important code links here.</p>
         )}
       </section>
-
-      {project.screenshots?.length > 0 && (
-        <section className="content-panel">
-        <h2>Screenshots</h2>
-          <ScreenshotSlider
-            screenshots={project.screenshots}
-            title={project.title}
-          />
-          </section>
-        )}
-      
-
-      {project.testingNotes?.length > 0 && (
+{(project.testingNotes?.length ?? 0) > 0 && (
   <section className="content-panel">
     <h2>How to Test It</h2>
 
     <div className="space-y-4">
-      {project.testingNotes.map((note, index) => (
+      {project.testingNotes!.map((note, index) => (
         <div key={index} className="flex items-start gap-3">
           <span className="font-semibold">{index + 1}.</span>
           <div>
