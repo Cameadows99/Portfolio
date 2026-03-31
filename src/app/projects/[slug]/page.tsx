@@ -124,6 +124,17 @@ export default async function ProjectDetailPage({ params }: Props) {
           <p>[Placeholder] Add important code links here.</p>
         )}
       </section>
+
+      {(project.screenshots?.length ?? 0) > 0 && (
+  <section className="content-panel">
+    <h2>Screenshots</h2>
+
+    <ScreenshotSlider
+      screenshots={project.screenshots!}
+      title={project.title}
+    />
+  </section>
+)}
 {(project.testingNotes?.length ?? 0) > 0 && (
   <section className="content-panel">
     <h2>How to Test It</h2>
