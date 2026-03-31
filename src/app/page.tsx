@@ -41,8 +41,8 @@ export default function HomePage() {
         <SectionHeading title="About Me" />
 
         <p>
-          I’m drawn to pattern recognition and breaking things down into their
-          simple pieces that join to create a larger whole.
+          
+          My skills/passions are writing, pattern recognition/decoding, and finding intricies in seemingly simple things.
         </p>
 
         <p>
@@ -52,11 +52,6 @@ export default function HomePage() {
           another structure/idea.
         </p>
 
-        <p className="highlight-line">
-          I find joy in diving deep into systems and finding how each piece
-          relates or affects one another.
-        </p>
-
         <p>
           I enjoy diving into systems and seeing how everything connects, how
           one decision affects another, and how small details shape the overall
@@ -64,53 +59,48 @@ export default function HomePage() {
         </p>
 
         <p>
-          What pulled me toward programming is the ability to manufacture an
-          idea into reality while also considering all types of people's
-          experience beyond my own.
+          What cause me to gravitate towards programming was the idea of being able to manifest abstract
+          ideas into a tangiable form and have the oppurtunity to dictate the way it is presented and interacted with.
         </p>
 
         <p>
           At first I started with the idea of diving deep into the back-end, but
-          through experience I found satisfaction in design and the small
-          details of user experiences.
+          overtime I began to find satisfaction in considering the smaller, more subtle, details.
         </p>
 
         <p>
-          I think one of my strengths is being able to hold multiple
-          perspectives at once and shape something that works for the collective
-          rather than the individual.
+          I think one of my strengths is being able to keep multiple
+          perspectives in mind in order to create a solution that satisfies the majority rather than the individual.
         </p>
       </section>
 
       <section className="content-panel">
         <SectionHeading title="Experience" />
 
-        <p>My work history is mostly one of many years of hands-on construction.</p>
+        <p>My work history is mostly one of many years of hands-on construction while using my free time to build personal applications.</p>
 
         <p>
           Although it may seem unrelated (and in many ways it is), I have found
           similarities in focusing on individual pieces and using them to create
           a whole. One must think of the end design when working on the bones of
           a building to fulfill the necessary functionality and stylistic
-          expression.
+          needs.
         </p>
 
         <p>
           I started learning to code in small steps, using platforms like
-          freeCodeCamp, and gradually moved into building my own projects.
+          freeCodeCamp, to expose myself to the basics, and incrementally expand and test myself further.
         </p>
 
         <p>
-          Later I began to dive into more diverse directions to explore all
-          avenues and followed more fleshed-out video tutorials to gain
-          experience of larger projects.
+          After building some confidence, I began to experiment with more variety and using what I've learned to challenge myself to build larger and less-fragmented projects.
         </p>
 
         <p>
-          Finally, I used my learned skills to create an application for my
+          Finally, I used the skills I learned to create an application for my
           previous company (Heatwave) that modernized the way the employees
-          interacted with the employer. This was mostly due to the fact that the
-          company still largely used paper filing.
+          interacted with the company. This was mostly due to the fact that the
+          company still largely used paper recording systems.
         </p>
       </section>
 
@@ -119,13 +109,11 @@ export default function HomePage() {
 
         <p>
           I’m interested in improving things people use every day, especially
-          the ones that are so commonly used that most people do not even think
-          about innovating further.
+          the ones that are so commonly used that many people forget that further improvements can be made.
         </p>
 
         <p>
-          A lot of my ideas come from noticing small friction points and
-          imagining better ways to interact with them.
+          A lot of my focus is on finding discomfortable areas that might trip a user up and offer a clean experiece with each type of user in mind.
         </p>
 
         <p>
@@ -156,9 +144,7 @@ export default function HomePage() {
         </p>
 
         <p className="highlight-line">
-          The goal is to remove discomfort and confusion for as many users as
-          possible while also giving the users a structured way to interact with
-          the application.
+         My foremost specitalty is to give users unique control in how they interact with applications while also offering a streamlined and stuctured default experience.
         </p>
 
         <p>
